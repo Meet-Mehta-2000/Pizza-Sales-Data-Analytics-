@@ -13,7 +13,7 @@ This Pizza Sales Analysis project is a complete data analytics case study focuse
 
 The project analyzes historical pizza sales data to understand business performance and uncover key insights related to sales trends, product performance, and customer behavior.
 
-It answers important business questions such as:  
+It answers important business questions such as:   
 Q)What is the total revenue generated?  
 Q)Which pizza category and size perform the best?  
 Q)Which pizzas are the top 5 and bottom 5 sellers?  
@@ -21,7 +21,7 @@ Q)How do sales vary by day, month, and time of day?
 Q)What is the average order value (AOV) and average pizzas per order?  
 
 ### 🧠 Business Objectives
--Identify overall revenue, total pizzas sold, and total orders. 
+-Identify overall revenue, total pizzas sold, and total orders.   
 -Determine sales distribution by pizza category, size, and type.  
 -Analyze time-based trends in sales (daily, monthly, and hourly).  
 -Highlight best- and worst-selling pizzas by revenue and quantity.  
@@ -73,14 +73,14 @@ Highlights the most popular products by revenue and quantity
 Identifies underperforming products for potential menu optimization  
 
 ### 📊 Dashboards
-📘 Power BI Dashboard
-Dynamic KPIs and filters - Interactive trend visuals and category breakdowns
+🔹 Power BI Dashboard  
+Dynamic KPIs and filters - Interactive trend visuals and category breakdowns  
 
-📗 Tableau Dashboard
-Visually rich storytelling with interactive charts - Time-based and category-based filters
+🔹 Tableau Dashboard  
+Visually rich storytelling with interactive charts - Time-based and category-based filters  
 
-📙 Excel Dashboard
-Slicers, pivot charts, and custom visuals - Fully dynamic AOV, sales, and trend tracking
+🔹 Excel Dashboard  
+Slicers, pivot charts, and custom visuals - Fully dynamic AOV, sales, and trend tracking  
 
 ### 📈 Business Insights
 - Classic pizzas generate the highest revenue share.
@@ -92,10 +92,10 @@ Slicers, pivot charts, and custom visuals - Fully dynamic AOV, sales, and trend 
 
 ### 🧩 Deliverables
 
-📘 Jupyter Notebook: Python data cleaning and analysis 
-🗃️ SQL Queries: Data extraction and KPI generation  
-📊 Power BI / Tableau / Excel Dashboards: Interactive visualizations 
-🧾 Business Requirements Document (BRD): Detailed project scope and objectives  
+📘 Jupyter Notebook: Python data cleaning and analysis   
+🗃️ SQL Queries: Data extraction and KPI generation    
+📊 Power BI / Tableau / Excel Dashboards: Interactive visualizations   
+🧾 Business Requirements Document (BRD): Detailed project scope and objectives    
 📄 Insights Report: Actionable recommendations for management  
 
 ### 💡 Recommendations
