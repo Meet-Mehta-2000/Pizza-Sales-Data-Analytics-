@@ -5,7 +5,7 @@ Pizza Sales Analysis – End-to-End Data Analytics Project
 This Pizza Sales Analysis project is a complete data analytics case study focused on deriving key insights from transactional sales data of a pizza store. It combines data cleaning, SQL querying, KPI calculation, visualization, and business interpretation to help management make informed, data-driven decisions.
 
 📁 Project Type: Data Analytics / Business Intelligence 
-🧰 Tools Used: SQL | Python | Power BI | Tableau | Excel
+🧰 Tools Used: SQL | Python | Power BI | Tableau | Excel  
 📊 Dataset: pizza_sales.csv
 📄 Document: Business Requirements Document (BRD)
 
@@ -14,11 +14,11 @@ This Pizza Sales Analysis project is a complete data analytics case study focuse
 The project analyzes historical pizza sales data to understand business performance and uncover key insights related to sales trends, product performance, and customer behavior.
 
 It answers important business questions such as:
-Q)What is the total revenue generated?
-Q)Which pizza category and size perform the best?
-Q)Which pizzas are the top 5 and bottom 5 sellers?
-Q)How do sales vary by day, month, and time of day?
-Q)What is the average order value (AOV) and average pizzas per order?
+Q)What is the total revenue generated?  
+Q)Which pizza category and size perform the best?  
+Q)Which pizzas are the top 5 and bottom 5 sellers?  
+Q)How do sales vary by day, month, and time of day?  
+Q)What is the average order value (AOV) and average pizzas per order?  
 
 ### 🧠 Business Objectives
 -Identify overall revenue, total pizzas sold, and total orders. 
