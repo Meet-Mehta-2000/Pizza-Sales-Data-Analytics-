@@ -51,18 +51,24 @@ Dataset: pizza_sales.csv
 -Average Pizzas per Order:	Total Pizzas Sold ÷ Total Orders	Customer purchase behavior  
 
 ### 📈 Analysis & Visualizations
-🔹 Daily Trend
+🔹 Daily Trend  
 Sales performance by day of the week - Helps optimize staffing and operations planning  
+
 🔹 Hourly Trend
 Sales by hour of the day - Identifies peak sales hours for inventory and staffing  
+
 🔹 Monthly Trend
-Tracks monthly revenue and order - Highlights seasonality and campaign effectiveness  
+Tracks monthly revenue and order - Highlights seasonality and campaign effectiveness 
+
 🔹 % of Sales by Category
 Compares revenue and quantity across pizza categories - Shows customer preference distribution  
+
 🔹 % Sales by Size
 Analyzes revenue contribution by pizza size (S, M, L, XL) - Guides inventory and pricing decisions  
+
 🔹 Top 5 Best-Selling Pizzas
 Highlights the most popular products by revenue and quantity  
+
 🔹 Bottom 5 Least-Selling Pizzas
 Identifies underperforming products for potential menu optimization  
 
