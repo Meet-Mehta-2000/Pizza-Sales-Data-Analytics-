@@ -86,9 +86,9 @@ Slicers, pivot charts, and custom visuals - Fully dynamic AOV, sales, and trend 
 - Classic pizzas generate the highest revenue share.
 - Large (L) pizzas contribute most to sales volume.
 - Fridays and weekends show peak order frequency.
-- Afternoon (1–3 PM) and evening (6–9 PM) hours drive maximum sales.
-- Top-selling pizzas should be featured in marketing campaigns.
-- Low-selling items may need recipe updates, promotions, or removal.
+- Afternoon (12 – 1 PM) and evening (4–9 PM) hours drive maximum sales.
+- The Classic Deleuxe pizza and The Barbecue Chicken pizza are top-selling pizzas and should be featured more in marketing campaigns.
+- The Brie Carre is lowest-selling pizza and  may need recipe updates, promotions, or removal.
 
 ### 🧩 Deliverables
 
@@ -105,5 +105,5 @@ Slicers, pivot charts, and custom visuals - Fully dynamic AOV, sales, and trend 
 - Reassess least-selling pizzas to reduce waste and improve profitability
 - Use data dashboards for ongoing performance tracking
 
-👨‍💻 Author
+👨‍💻 Author  
 Meet Mehta
