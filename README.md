@@ -2,167 +2,108 @@
 
 Pizza Sales Analysis – End-to-End Data Analytics Project
 
-The Pizza Sales Analysis project is a complete data analytics case study focused on deriving key insights from transactional sales data of a pizza store. It combines data cleaning, SQL querying, KPI calculation, visualization, and business interpretation to help management make informed, data-driven decisions.
+This Pizza Sales Analysis project is a complete data analytics case study focused on deriving key insights from transactional sales data of a pizza store. It combines data cleaning, SQL querying, KPI calculation, visualization, and business interpretation to help management make informed, data-driven decisions.
 
-📁 Project Type: Data Analytics / Business Intelligence  
+📁 Project Type: Data Analytics / Business Intelligence 
 🧰 Tools Used: SQL | Python | Power BI | Tableau | Excel
 📊 Dataset: pizza_sales.csv
 📄 Document: Business Requirements Document (BRD)
 
-🎯 Project Overview
+## 🎯 Project Overview
 
 The project analyzes historical pizza sales data to understand business performance and uncover key insights related to sales trends, product performance, and customer behavior.
 
 It answers important business questions such as:
+Q)What is the total revenue generated?
+Q)Which pizza category and size perform the best?
+Q)Which pizzas are the top 5 and bottom 5 sellers?
+Q)How do sales vary by day, month, and time of day?
+Q)What is the average order value (AOV) and average pizzas per order?
 
-What is the total revenue generated?
+### 🧠 Business Objectives
+-Identify overall revenue, total pizzas sold, and total orders. 
+-Determine sales distribution by pizza category, size, and type.  
+-Analyze time-based trends in sales (daily, monthly, and hourly).  
+-Highlight best- and worst-selling pizzas by revenue and quantity.  
+-Understand customer purchasing behavior through KPIs.  
+-Build interactive dashboards to visualize performance insights.  
 
-Which pizza category and size perform the best?
+### 🧾 Data Description
 
-Which pizzas are the top 5 and bottom 5 sellers?
+Dataset: pizza_sales.csv  
 
-How do sales vary by day, month, and time of day?
+-order_id:Unique identifier for each order  
+-pizza_id:	Unique identifier for each pizza  
+-pizza_name:Name of the pizza sold  
+-quantity:	Number of pizzas sold per order  
+-total_price:	Total revenue for that transaction  
+-date:	Order date  
+-time:	Order time  
+-pizza_category:	Pizza classification (Classic, Veggie, Supreme, Chicken)  
+-pizza_size:	Size of pizza (S, M, L, XL)  
 
-What is the average order value (AOV) and average pizzas per order?
+### 📊 Key Performance Indicators (KPIs)
 
-🧠 Business Objectives
+-Total Revenue:	Σ total_price	Total income generated
+-Total Pizzas Sold:	Σ quantity	Total pizzas sold
+-Total Orders:	COUNT(order_id)	Number of unique orders
+-Average Order Value (AOV):	Total Revenue ÷ Total Orders	Average value per order
+-Average Pizzas per Order:	Total Pizzas Sold ÷ Total Orders	Customer purchase behavior
 
-Identify overall revenue, total pizzas sold, and total orders.
-
-Determine sales distribution by pizza category, size, and type.
-
-Analyze time-based trends in sales (daily, monthly, and hourly).
-
-Highlight best- and worst-selling pizzas by revenue and quantity.
-
-Understand customer purchasing behavior through KPIs.
-
-Build interactive dashboards to visualize performance insights.
-
-🧾 Data Description
-
-Dataset: pizza_sales.csv
-Source: Store transactional database
-
-Column Name	Description
-order_id	Unique identifier for each order
-pizza_id	Unique identifier for each pizza
-pizza_name	Name of the pizza sold
-quantity	Number of pizzas sold per order
-total_price	Total revenue for that transaction
-date	Order date
-time	Order time
-pizza_category	Pizza classification (Classic, Veggie, Supreme, Chicken)
-pizza_size	Size of pizza (S, M, L, XL)
-📊 Key Performance Indicators (KPIs)
-KPI	Formula	Purpose
-Total Revenue	Σ total_price	Total income generated
-Total Pizzas Sold	Σ quantity	Total pizzas sold
-Total Orders	COUNT(order_id)	Number of unique orders
-Average Order Value (AOV)	Total Revenue ÷ Total Orders	Average value per order
-Average Pizzas per Order	Total Pizzas Sold ÷ Total Orders	Customer purchase behavior
-
-
-📈 Analysis & Visualizations
+### 📈 Analysis & Visualizations
 🔹 Daily Trend
-
-Sales performance by day of the week
-
-Helps optimize staffing and operations planning
+Sales performance by day of the week - Helps optimize staffing and operations planning
 
 🔹 Hourly Trend
-
-Sales by hour of the day
-
-Identifies peak sales hours for inventory and staffing
+Sales by hour of the day - Identifies peak sales hours for inventory and staffing
 
 🔹 Monthly Trend
-
-Tracks monthly revenue and orders
-
-Highlights seasonality and campaign effectiveness
+Tracks monthly revenue and order - Highlights seasonality and campaign effectiveness
 
 🔹 % of Sales by Category
-
-Compares revenue and quantity across pizza categories
-
-Shows customer preference distribution
+Compares revenue and quantity across pizza categories - Shows customer preference distribution
 
 🔹 % Sales by Size
-
-Analyzes revenue contribution by pizza size (S, M, L, XL)
-
-Guides inventory and pricing decisions
+Analyzes revenue contribution by pizza size (S, M, L, XL) - Guides inventory and pricing decisions
 
 🔹 Top 5 Best-Selling Pizzas
-
 Highlights the most popular products by revenue and quantity
 
 🔹 Bottom 5 Least-Selling Pizzas
-
 Identifies underperforming products for potential menu optimization
 
-📊 Dashboards
+### 📊 Dashboards
 📘 Power BI Dashboard
-
-Dynamic KPIs and filters
-
-Interactive trend visuals and category breakdowns
+Dynamic KPIs and filters - Interactive trend visuals and category breakdowns
 
 📗 Tableau Dashboard
-
-Visually rich storytelling with interactive charts
-
-Time-based and category-based filters
+Visually rich storytelling with interactive charts - Time-based and category-based filters
 
 📙 Excel Dashboard
+Slicers, pivot charts, and custom visuals - Fully dynamic AOV, sales, and trend tracking
 
-Slicers, pivot charts, and custom visuals
+### 📈 Business Insights
+- Classic pizzas generate the highest revenue share.
+- Large (L) pizzas contribute most to sales volume.
+- Fridays and weekends show peak order frequency.
+- Afternoon (1–3 PM) and evening (6–9 PM) hours drive maximum sales.
+- Top-selling pizzas should be featured in marketing campaigns.
+- Low-selling items may need recipe updates, promotions, or removal.
 
-Fully dynamic AOV, sales, and trend tracking
+### 🧩 Deliverables
 
-(You can add screenshots or Tableau Public / Power BI links here.)
+📘 Jupyter Notebook: Python data cleaning and analysis 
+🗃️ SQL Queries: Data extraction and KPI generation  
+📊 Power BI / Tableau / Excel Dashboards: Interactive visualizations 
+🧾 Business Requirements Document (BRD): Detailed project scope and objectives  
+📄 Insights Report: Actionable recommendations for management  
 
-📈 Business Insights
+### 💡 Recommendations
 
-Classic pizzas generate the highest revenue share.
-
-Large (L) pizzas contribute most to sales volume.
-
-Fridays and weekends show peak order frequency.
-
-Afternoon (1–3 PM) and evening (6–9 PM) hours drive maximum sales.
-
-Top-selling pizzas should be featured in marketing campaigns.
-
-Low-selling items may need recipe updates, promotions, or removal.
-
-🧩 Deliverables
-
-📘 Jupyter Notebook: Python data cleaning and analysis
-
-🗃️ SQL Queries: Data extraction and KPI generation
-
-📊 Power BI / Tableau Dashboards: Interactive visualizations
-
-🧾 Business Requirements Document (BRD): Detailed project scope and objectives
-
-📄 Insights Report: Actionable recommendations for management
-
-💡 Recommendations
-
-Focus marketing on top-performing pizza categories
-
-Optimize menu pricing and promotions around peak demand hours
-
-Reassess least-selling pizzas to reduce waste and improve profitability
-
-Use data dashboards for ongoing performance tracking
-
-📄 License
-
-This project is open source under the MIT License.
+- Focus marketing on top-performing pizza categories
+- Optimize menu pricing and promotions around peak demand hours
+- Reassess least-selling pizzas to reduce waste and improve profitability
+- Use data dashboards for ongoing performance tracking
 
 👨‍💻 Author
-
 Meet Mehta
